@@ -4,6 +4,12 @@ import SignUpForm from "../ui/auth/SignUpForm";
 import Link from "next/link";
 import FormContainer from "../ui/auth/FormContainer";
 
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Signup",
+};
+
 const Signup = () => {
   return (
     <div className="w-full h-screen flex">

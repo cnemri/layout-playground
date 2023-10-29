@@ -7,6 +7,7 @@ type Props = {};
 const FeatureItem = ({ icon, title, description }: Feature) => {
   return (
     <li className="feature">
+      {icon}
       <h3 className="text-xl font-semibold mb-4">{title}</h3>
       <p>{description}</p>
     </li>

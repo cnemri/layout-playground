@@ -3,6 +3,11 @@ import Footer from "../ui/layout/Footer";
 import Header from "../ui/layout/Header";
 import PricingSection from "../ui/pricing/PricingSection";
 import FAQ from "../ui/pricing/FAQ";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Pricing",
+};
 
 const PricingPage = () => {
   return (

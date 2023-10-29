@@ -4,6 +4,11 @@ import Footer from "../ui/layout/Footer";
 import ContactForm from "../ui/contact/ContactForm";
 import ContactDetails from "../ui/contact/ContactDetails";
 import MapSection from "../ui/contact/MapSection";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Contact",
+};
 
 const ContactPage = () => {
   return (

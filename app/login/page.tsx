@@ -3,6 +3,11 @@ import React from "react";
 import LeftSidebar from "../ui/auth/LeftSidebar";
 import Link from "next/link";
 import FormContainer from "../ui/auth/FormContainer";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Login",
+};
 
 type Props = {};
 
