@@ -8,9 +8,9 @@ const TestimonialItem = ({ quote, name, title, icon }: Testimonial) => {
   return (
     <div className="testimonial p-6 bg-white rounded-xl">
       <p>&quot;{quote}&quot;</p>
-      <div className="mt-4 flex items-center">
+      <div className="mt-4 flex items-center justify-end">
         {icon}
-        <div>
+        <div className="mr-20">
           <h4 className="font-bold">{name}</h4>
           <p>{title}</p>
         </div>
