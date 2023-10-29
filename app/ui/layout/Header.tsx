@@ -8,7 +8,7 @@ type Props = {};
 const Header = (props: Props) => {
   return (
     <header className="p-6 bg-white shadow-md">
-      <div className="container mx-auto flex justify-between items-center">
+      <div className="relative container mx-auto flex justify-between items-center">
         <div className="font-bold text-2xl">
           <Link href="/">YourLogo</Link>
         </div>
